@@ -2,7 +2,7 @@ import subprocess
 
 # Install the Transformers library
 subprocess.call(['pip', 'install', 'transformers'])
-pip freeze | grep transformers
+pip install transformers
 # Now you can import and use the Transformers library in your script
 import transformers
 import streamlit as st
